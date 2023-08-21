@@ -1,0 +1,238 @@
+let clothItemsData = [
+  {
+    id: "a1",
+    name: "Casual Shirt",
+    price: 45,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/clothes/img-1.jpg",
+  },
+  {
+    id: "a2",
+    name: "Office Shirt",
+    price: 100,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/clothes/img-2.jpg",
+  },
+  {
+    id: "a3",
+    name: "T Shirt",
+    price: 25,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/clothes/img-3.jpg",
+  },
+  {
+    id: "a4",
+    name: "Mens Suit",
+    price: 300,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/clothes/img-4.jpg",
+  },
+];
+let phonesItemsData = [
+  {
+    id: "b1",
+    name: "Iphone",
+    price: 150,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/phones/1.jpg",
+  },
+  {
+    id: "b2",
+    name: "Oppo",
+    price: 500,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/phones/2.jpg",
+  },
+  {
+    id: "b3",
+    name: "Samsun",
+    price: 405,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/phones/3.jpg",
+  },
+  {
+    id: "b4",
+    name: "Mens Suit",
+    price: 10,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/phones/4.jpg",
+  },
+];
+let carsItemsData = [
+  {
+    id: "c1",
+    name: "Sedans",
+    price: 500,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/cars/1.jpg",
+  },
+  {
+    id: "c2",
+    name: "SUVs",
+    price: 300,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/cars/2.jpg",
+  },
+  {
+    id: "c3",
+    name: "Minivans",
+    price: 400,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/cars/3.jpg",
+  },
+  {
+    id: "c4",
+    name: "Luxury",
+    price: 600,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/cars/4.jpg",
+  },
+];
+let fruitsItemsData = [
+  {
+    id: "d1",
+    name: "cherry",
+    price: 15,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/fruits/1.jpg",
+  },
+  {
+    id: "d2",
+    name: "Apples",
+    price: 50,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/fruits/2.jpg",
+  },
+  {
+    id: "d3",
+    name: "Pomegranate",
+    price: 45,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/fruits/3.jpg",
+  },
+  {
+    id: "d4",
+    name: "Watermelons",
+    price: 14,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/fruits/4.jpg",
+  },
+];
+
+var allitemsData = [
+  {
+    id: "a1",
+    name: "Casual Shirt",
+    price: 45,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/clothes/img-1.jpg",
+  },
+  {
+    id: "a2",
+    name: "Office Shirt",
+    price: 100,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/clothes/img-2.jpg",
+  },
+  {
+    id: "a3",
+    name: "T Shirt",
+    price: 25,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/clothes/img-3.jpg",
+  },
+  {
+    id: "a4",
+    name: "Mens Suit",
+    price: 300,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/clothes/img-4.jpg",
+  },
+
+  {
+    id: "b1",
+    name: "Iphone",
+    price: 150,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/phones/1.jpg",
+  },
+  {
+    id: "b2",
+    name: "Oppo",
+    price: 500,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/phones/2.jpg",
+  },
+  {
+    id: "b3",
+    name: "Samsun",
+    price: 405,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/phones/3.jpg",
+  },
+  {
+    id: "b4",
+    name: "Mens Suit",
+    price: 10,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/phones/4.jpg",
+  },
+
+  {
+    id: "c1",
+    name: "Sedans",
+    price: 500,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/cars/1.jpg",
+  },
+  {
+    id: "c2",
+    name: "SUVs",
+    price: 300,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/cars/2.jpg",
+  },
+  {
+    id: "c3",
+    name: "Minivans",
+    price: 400,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/cars/3.jpg",
+  },
+  {
+    id: "c4",
+    name: "Luxury",
+    price: 600,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/cars/4.jpg",
+  },
+
+  {
+    id: "d1",
+    name: "cherry",
+    price: 15,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/fruits/1.jpg",
+  },
+  {
+    id: "d2",
+    name: "Apples",
+    price: 50,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/fruits/2.jpg",
+  },
+  {
+    id: "d3",
+    name: "Pomegranate",
+    price: 45,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/fruits/3.jpg",
+  },
+  {
+    id: "d4",
+    name: "Watermelons",
+    price: 14,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    img: "images/fruits/4.jpg",
+  },
+];
